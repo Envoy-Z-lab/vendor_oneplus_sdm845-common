@@ -90,30 +90,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentOKGoogleWCD9340_SDM845",
-	owner: "oneplus",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleWCD9340_SDM845/HotwordEnrollmentOKGoogleWCD9340_SDM845.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "HotwordEnrollmentXGoogleWCD9340_SDM845",
-	owner: "oneplus",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleWCD9340_SDM845/HotwordEnrollmentXGoogleWCD9340_SDM845.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "QtiTelephonyService",
 	owner: "oneplus",
 	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
@@ -199,13 +175,6 @@ dex_import {
 	name: "tcmclient",
 	owner: "oneplus",
 	jars: ["proprietary/system/framework/tcmclient.jar"],
-}
-
-dex_import {
-	name: "com.android.hotwordenrollment.common.util",
-	owner: "oneplus",
-	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
-	system_ext_specific: true,
 }
 
 dex_import {
